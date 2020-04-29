@@ -1,7 +1,0 @@
-FROM node:current-buster
-# Setting up the environment
-RUN apt update
-# prompts to share usage data
-RUN npm install -g @angular/cli@latest 
-COPY . /opt
-WORKDIR /opt/spring-petclinic-angular
