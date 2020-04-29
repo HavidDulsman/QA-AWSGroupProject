@@ -1,0 +1,11 @@
+FROM node:current-buster
+# Setting up the environment
+RUN npm install -g @angular/cli@latest
+# prompts to share usage data
+WORKDIR /opt
+RUN git clone https://github.com/spring-petclinic/spring-petclinic-angular.git
+WORKDIR /opt/spring-petclinic-angular
+RUN npm install
+RUN rm package-lock.json
+EXPOSE 4200
+CMD ng serve
