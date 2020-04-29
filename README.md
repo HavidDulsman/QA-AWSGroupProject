@@ -1,5 +1,5 @@
 # QA Consulting: Amazon Web Services Group Project
-bailey
+
 
 This project was created in reference to the 'Final_project_brief'. This Project meets all of the specifications of said documents and fully displays the ability of all those who worked on this project.
 
