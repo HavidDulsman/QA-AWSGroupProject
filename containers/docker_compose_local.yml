@@ -1,5 +1,13 @@
 --- 
     services: 
+      back_end:
+        container_name: back_end
+        image: springcommunity/spring-petclinic-rest:latest
+        ports:
+          - "9966:9966"
+        networks:
+          - petclinic
+
       front_end:
         container_name: front_end
         build: 
