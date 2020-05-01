@@ -29,11 +29,14 @@ This Project is due Week 12 of the QA Consultancy DevOps 17th February 2020 Inta
     + [After Project Completition]()
 6. [Deployment]()
     + [List of techonologies used]()
-7. [Project retrospective]()
+7. [Testing]()
+    + [Pytest]()
+    + [Coverage]()
+8. [Project retrospective]()
     + [Notable Achievements]()
     + [Project Shortcomings]()
     + [Future Improvements]()
-8. [Installation Guide]()
+9. [Installation Guide]()
 
 ## Brief
 
