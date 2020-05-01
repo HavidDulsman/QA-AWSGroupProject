@@ -36,7 +36,28 @@ This Project is due Week 12 of the QA Consultancy DevOps 17th February 2020 Inta
 8. [Installation Guide]()
 
 ## Brief
+
+Usings the two following documented applications
+- Front end client using AngualrJS (https://github.com/spring-petclinic/spring-petclinic-angular)
+- Java API (https://github.com/spring-petclinic/spring-petclinic-rest)
+
+We need to plan, design and implement a solution for automating the deployments and development workflows of these applications.
+
+We must also take the following into consideration throughout the project:
+* What tools we will use, being able to justify our decisions
+* Multiple enviroment support, how can a developer test their new feature on an enviroment before merging their changes to the main branch
+* Automatic builds, can changes to the Github repository automatically build and deploy to testing and live enviroments 
+* Running costs, is the soloution cost effective and what are the monthly cost estimates
+
 ### Requirements
+
+The requirements for this task are: 
+* Continously updated Kanban Board with full expansion on tasks needed to complete the project
+* An initial and then continously updated risk assessment with corresponding matrix
+* Deployment pipeline
+* Use of Amazon Web Service features 
+* Use of Dev Ops tools 
+
 ## Project Plan
 ### Kanban Board
 ### Feature Branch Model
