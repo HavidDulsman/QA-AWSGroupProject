@@ -96,6 +96,9 @@ We look to have a MVP functioning before the weekend, leaving us with some time 
 
 ## Architecture
 ## Risk Assessment
+A risk assessment was compiled to look and examine risk related to the project, its requirements and demands. Due to the complexity, detail and size of the risk assessment we have opted to include it as it's own file which can be accessed through the documentation file in this repository or by using [this link](https://github.com/HavidDulsman/RapperNameGenerator/blob/master/documentation/rapper_risk_1.xlsx). 
+A **Risk Assessment Matrix** has been implememnted into the document.
+
 ### Pre/Early Development
 ### After Project Completetion
 ## Deployment
