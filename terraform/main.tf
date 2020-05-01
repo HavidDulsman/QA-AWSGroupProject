@@ -1,5 +1,5 @@
 provider "aws" {
-  region                  = "eu-west-2"
+  region                  = var.region
   shared_credentials_file = "~/.aws/credentials"
   version                 = "~> 2.0"
 }
@@ -13,9 +13,17 @@ module "sg_deployment" {
   vpc_id = module.vpc_deployment.vpc_id
 }
 
-module "ec2_deployment" {
+module "jenkins_deployment" {
   source = "./EC2"
-  vpc_security_group_id = module.sg_deployment.aws_sg_id
+  jenkins_sg_id = module.sg_deployment.aws_jenkins_sg_id
   subnet_live_id = module.vpc_deployment.subnet_live_id
   subnet_test_id = module.vpc_deployment.subnet_test_id
+}
+
+module "eks_deployment" {
+  region = var.region
+  source = "./EKS"
+  subnets   = ["${module.vpc_deployment.subnet_live_id}", "${module.vpc_deployment.subnet_test_id}"]
+  secgroups = ["${module.sg_deployment.aws_sg_id}"]
+
 }

@@ -10,7 +10,7 @@ variable "key_name" {
   default = "group2"
 }
 
-variable "vpc_security_group_id"{
+variable "jenkins_sg_id"{
   description = "security group for new instances and vpc"
 }
 
