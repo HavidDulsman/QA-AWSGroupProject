@@ -97,7 +97,7 @@ We look to have a MVP functioning before the weekend, leaving us with some time 
 ## Architecture
 ## Risk Assessment
 ### Pre/Early Development
-A risk assessment was compiled to look and examine risk related to the project, its requirements and demands. Due to the complexity, detail and size of the risk assessment we have opted to include it as it's own file which can be accessed through the documentation file in this repository or by using [this link](https://github.com/HavidDulsman/QA-AWSGroupProject/blob/master/Documentation/AWS_initial_RA.xlsx).
+A risk assessment was compiled to look and examine risk related to the project, its requirements and demands. Due to the complexity, detail and size of the risk assessment we have opted to include it as it's own file which can be accessed through the documentation folder in this repository or by using [this link](https://github.com/HavidDulsman/QA-AWSGroupProject/blob/master/Documentation/AWS_initial_RA.xlsx).
 A **Risk Assessment Matrix** has been implemented into the document.
 
 ### After Project Completetion
