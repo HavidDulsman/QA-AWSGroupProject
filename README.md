@@ -105,6 +105,26 @@ A **Risk Assessment Matrix** has been implemented into the document.
 
 ## Deployment
 ### List of technologies used
+#### Technologies Used in Applications Given to us
+* TypeScript: Programnming Language
+* JavaScript: Programming Language 
+* HTML: Markup Language for Web Pages
+* CSS: Style Sheet Language 
+* Java: Programming Language
+* TSQL: Transactional lanuage for SQL
+* Docker: Containerisation Service
+* DockerHub: Version Control for Docker Images and Containers
+
+#### Technologies we used
+* Github: Version Control System
+* Jenkins: Continous Intergration Server
+* Amazon Web Service: Cloud Service
+* Trello: Kanban Board and Project Tracking
+* Docker: Containerisation Service
+* DockerHub: Version Control for Docker Images and Containers
+* NGINX: Load Balancing 
+
+
 ## Testing
 ### Pytest
 ### Coverage
