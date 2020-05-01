@@ -100,6 +100,9 @@ We look to have a MVP functioning before the weekend, leaving us with some time 
 ### After Project Completetion
 ## Deployment
 ### List of technologies used
+## Testing
+### Pytest
+### Coverage
 ## Project Retrospective
 ### Notable Achievement
 ### Project Shortcomings
