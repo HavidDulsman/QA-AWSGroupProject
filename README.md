@@ -22,7 +22,7 @@ This Project is due Week 12 of the QA Consultancy DevOps 17th February 2020 Inta
     + [Pre-Sprint (28/04/2020)]()
     + [Sprint 1 (29/04/2020)]()
     + [Sprint 2 (30/04/2020)]()
-    + [Sprint 3 (31/04/2020)]()
+    + [Sprint 3 (01/05/2020)]()
 4. [Architecture]()
 5. [Risk Assessment]()
     + [Pre/Early Development]()
@@ -93,6 +93,18 @@ For our 2nd standup meeting, we opted to take this opportunity to discuss poteni
 Alot more work was conducted during this sprint as the team slowly started to get a feel for the tools and infrastructure of the project. Large areas of the **Terraform infrastructure** was completed, with only a few light parts suchs as the load balancer and security group adjustments needed. Progression was made on **developing containers for the testing enviroment**, however many hiccups meant that alot of other tasks where looking to get pushed back. A solution was thankfully applied later that evening, as well as **NGINX implementation onto the frontend services**.
 
 We look to have a MVP functioning before the weekend, leaving us with some time next week to experiment with better alternatives to our current application.
+
+### Sprint 3 (01/05/2020)
+#### Sprint Planning
+The main focus of this sprint was to have a **working minimal viable product** by the weekend. We had success late last night with a **breakthrough on the frontend dockerisation**, however this seemed to a meer blimp as it was no working again during the standup. **Denzel** would continue to focus with containerisation, as other tasks relied on its completion. **Tom and David** would also continue with new terraform developments, with bailey offering to start on **Jenkins** related tasks as well as overall continued support
+
+#### Trello Board
+![trello 3](https://i.imgur.com/IWThCp3.png)
+
+#### Sprint Review
+We originally planned to use **Docker Swarm** for orchestration due to shared confidence in the platform. However we shared a common interest to move to **Elastic Kubernetes Service on AWS**, as we can look to contain all management within the same AWS platform. This caused some confused at the start but we quickly adapted. **David** focused on completing Terraform with its new requirements, who had support from **Bailey** and **Tom**, of which both progressed with **documentation and infrastructure design**. What seemed like a disappointing sprint was inevitably saved in the later hours as a **solution to our everlasting frontend container issue** was uncovered. **Denzel** used additional out of hours to optimise the current docker solution, as well as implement a **NGINX container** that will be used for easy deployment once we are ready. 
+
+Whilst a working MVP is still not available, we will look to finish up on the weekend, allowing us all of next week to focus on interesting ideas to improve the application infrastructure.
 
 ## Architecture
 ## Risk Assessment
