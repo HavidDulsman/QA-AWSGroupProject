@@ -141,7 +141,20 @@ A **Risk Assessment Matrix** has been implemented into the document.
 ### Pytest
 ### Coverage
 ## Project Retrospective
-### Notable Achievement
+As part of the project retrospective, each member of the team will have time to explain how the project went for them, and include unique items and perspectives to certain tasks.
+### Notable Achievements
+#### David: 
+#### Denzel:
+#### Bailey:
+#### Thomas:
 ### Project Shortcomings
+#### David: 
+#### Denzel:
+#### Bailey:
+#### Thomas:
 ### Future Improvements
+#### David: 
+#### Denzel:
+#### Bailey:
+#### Thomas:
 ## Installation Guide
