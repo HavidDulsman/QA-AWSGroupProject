@@ -1,8 +1,17 @@
+resource "aws_instance" "test_instance" {
+  ami = var.ami_id
+  instance_type          = var.t2_micro
+  key_name               = var.key_name
+  subnet_id              = var.subnet_test_id
+  vpc_security_group_ids = [var.aws_sg_id]
+}
+
+
 resource "aws_instance" "jenkins_instance" {
   ami                    = var.ami_id
   instance_type          = var.t2_micro
   key_name               = var.key_name
-  subnet_id              = var.subnet_test_id
+  subnet_id              = var.subnet_live_id
   vpc_security_group_ids = [var.jenkins_sg_id]
 
   user_data = data.template_file.jenkins_install.rendered

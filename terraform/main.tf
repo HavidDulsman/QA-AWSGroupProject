@@ -15,6 +15,7 @@ module "sg_deployment" {
 
 module "jenkins_deployment" {
   source = "./EC2"
+  aws_sg_id = module.sg_deployment.aws_sg_id
   jenkins_sg_id = module.sg_deployment.aws_jenkins_sg_id
   subnet_live_id = module.vpc_deployment.subnet_live_id
   subnet_test_id = module.vpc_deployment.subnet_test_id
@@ -23,7 +24,7 @@ module "jenkins_deployment" {
 module "eks_deployment" {
   region = var.region
   source = "./EKS"
-  subnets   = ["${module.vpc_deployment.subnet_live_id}", "${module.vpc_deployment.subnet_test_id}"]
+  subnets   = ["${module.vpc_deployment.subnet_live_id}","${module.vpc_deployment.subnet_live2_id}"]
   secgroups = ["${module.sg_deployment.aws_sg_id}"]
 
 }

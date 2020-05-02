@@ -9,6 +9,12 @@ resource "aws_subnet" "group2-sub-live" {
   map_public_ip_on_launch = true
 }
 
+resource "aws_subnet" "group2-sub-live2" {
+  cidr_block = var.sub-live2
+  vpc_id     = aws_vpc.group2-vpc.id
+  map_public_ip_on_launch = true
+}
+
 resource "aws_subnet" "group2-sub-test" {
   cidr_block = var.sub-test
   vpc_id     = aws_vpc.group2-vpc.id
@@ -32,7 +38,7 @@ resource "aws_route_table_association" "group2-live-rta" {
 } 
 
 resource "aws_route_table_association" "group2-test-rta" {
-    subnet_id = aws_subnet.group2-sub-live.id
+    subnet_id = aws_subnet.group2-sub-test.id
     route_table_id = aws_route_table.group2-rt.id
 }
 

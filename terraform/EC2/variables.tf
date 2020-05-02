@@ -14,6 +14,10 @@ variable "jenkins_sg_id"{
   description = "security group for new instances and vpc"
 }
 
+variable "aws_sg_id"{
+  description = "security group for live and test instances"
+}
+
 variable "subnet_live_id" {
   description = "subnet for live service"
 }
