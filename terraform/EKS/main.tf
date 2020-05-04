@@ -48,7 +48,7 @@ resource "aws_iam_role_policy_attachment" "AWS_EKSServicePolicy" {
 
 resource "aws_eks_node_group" "group2_eks_nodegrp" {
   cluster_name    = aws_eks_cluster.group2-eks.name
-  node_group_name = "Pet_Clinic_Node_Groups"
+  node_group_name = "g2_node_groups"
   node_role_arn   = aws_iam_role.eksrole_node.arn
   subnet_ids      = var.subnets
   instance_types  = ["t2.micro"]
