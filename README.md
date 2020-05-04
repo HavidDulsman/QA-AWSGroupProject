@@ -62,8 +62,12 @@ The requirements for this task are:
 * Use of Dev Ops tools 
 
 ## Project Plan
-### Kanban Board
+### Kanban Boards
+![trello 1](https://i.imgur.com/kJoFrLK.png)
 ### Feature Branch Model
+![fbm](https://i.imgur.com/td9GuZG.png)
+### Collaboration on tasks
+![statistics](https://i.imgur.com/NgjPU3N.png)
 ## Sprint History
 ### Pre-Sprint (28/04/2020)
 We had the chance to look at the project brief 24 hours before our first meeting with our client for the first official standup and scrum. During this time we spoke in deep about the requirements of the project, as well as who would be responsible for deliverables, repositorys and the roles within our team. 
@@ -107,6 +111,8 @@ We originally planned to use **Docker Swarm** for orchestration due to shared co
 Whilst a working MVP is still not available, we will look to finish up on the weekend, allowing us all of next week to focus on interesting ideas to improve the application infrastructure.
 
 ## Architecture
+### Infrastructual Diagram
+![infrastructual diagram](https://i.imgur.com/tY1iRY9.png)
 ## Risk Assessment
 ### Pre/Early Development
 A risk assessment was compiled to look and examine risk related to the project, its requirements and demands. Due to the complexity, detail and size of the risk assessment we have opted to include it as it's own file which can be accessed through the documentation folder in this repository or by using [this link](https://github.com/HavidDulsman/QA-AWSGroupProject/blob/master/Documentation/AWS_initial_RA.xlsx).
