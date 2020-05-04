@@ -63,10 +63,13 @@ The requirements for this task are:
 
 ## Project Plan
 ### Kanban Boards
+As with the previous projects, we are using Trello as the host for our kanban boards. Kanban boards will be frequently updated and posted each day to highlight the progression of our project
 ![trello 1](https://i.imgur.com/kJoFrLK.png)
 ### Feature Branch Model
+After two previous projects, we were all well acustomed to the feature branch model and the benefits it can bring. We have opted to expand again to seperate branchs from the developer. The first for **terraform and the project infrastructure** where all of the early development on the project would be done. The second is for **docker and ansbile** which will allow us to add functionality to the new instances made by the previous stages. When each is completed to a suitable standard it will the be pushed to developer then further to master
 ![fbm](https://i.imgur.com/td9GuZG.png)
 ### Collaboration on tasks
+As this was our first group project, we looked to combine all of the experiences so far to effectively work together. We looked to use a **shared github repository** hosted by 1 person, but with the other 3 as collaborators and able to do any the owner can do. 
 ![statistics](https://i.imgur.com/NgjPU3N.png)
 ## Sprint History
 ### Pre-Sprint (28/04/2020)
