@@ -110,6 +110,17 @@ We originally planned to use **Docker Swarm** for orchestration due to shared co
 
 Whilst a working MVP is still not available, we will look to finish up on the weekend, allowing us all of next week to focus on interesting ideas to improve the application infrastructure.
 
+### Sprint (04/05/2020)
+#### Sprint Planning
+After some light work on the weekend, we starting growing desperate to achieve a Minimal Viable Product, as we realised we not only had limited time, but we were quickly losing the time we wanted to experiment with. **More containerisation issues**  plagued the team further on the weekend, so we quickly looked for support for this issue. This was the day **Denzel** was unable to complete major work, so we had to focus on other elements, from ansible, kubenetes and documentation. **Bailey** would continue his work on **Jenkins**, whilst **Tom** had done previous research on **Kubernetes** and looked to apply that knowledge in his YAML Files.
+#### Trello Board
+![trello 4](https://i.imgur.com/oneFJtC.png)
+
+#### Sprint Review
+Alot of new issues where uncovered during the weekend and this sprint, that yet again had massive effects on the progress that can be made. We learnt alot about docker techniques this sprint and opted to change from **3 to 2 containers**. The requirements of the ansible and kubenetes required some additional work to the terraform architecture but was completed by the end of the day. The jenkins instance is now full operational and prepared for the later task, that we have now distributed and started. 
+
+Due to the serverity of the delays we are facing, we are now looking to simply achieve the MVP, whilst leaving time to curate the best presentation possible
+
 ## Architecture
 ### Infrastructual Diagram
 ![infrastructual diagram](https://i.imgur.com/tY1iRY9.png)
