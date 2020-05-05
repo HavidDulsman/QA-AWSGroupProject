@@ -22,7 +22,7 @@ This Project is due Week 12 of the QA Consultancy DevOps 17th February 2020 Inta
     + [Pre-Sprint (28/04/2020)]()
     + [Sprint 1 (29/04/2020)]()
     + [Sprint 2 (30/04/2020)]()
-    + [Sprint 3 (01/05/2020)]()
+    + [Sprint 3 (31/04/2020)]()
 4. [Architecture]()
 5. [Risk Assessment]()
     + [Pre/Early Development]()
@@ -178,3 +178,4 @@ As part of the project retrospective, each member of the team will have time to 
 #### Bailey:
 #### Thomas:
 ## Installation Guide
+

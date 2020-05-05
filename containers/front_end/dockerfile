@@ -1,0 +1,5 @@
+FROM nginx:latest
+RUN mkdir -p /usr/share/nginx/html/petclinic/dist
+COPY ./spring-petclinic-angular/dist  /usr/share/nginx/html/petclinic/dist/
+COPY petclinic.conf /etc/nginx/conf.d
+RUN rm /etc/nginx/conf.d/default.conf
