@@ -30,7 +30,7 @@ spec:
       hostname: frontend
       containers:
       - name: frontend
-        image: denzaaaaal/frontend
+        image: denzaaaaal/frontend:latest
         resources:
           limits:
             cpu: "2"
