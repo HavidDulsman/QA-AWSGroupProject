@@ -1,1 +1,1 @@
-audo apt update -y
+sudo apt update -y
