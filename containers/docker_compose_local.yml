@@ -1,0 +1,26 @@
+--- 
+    services: 
+      back_end:
+        container_name: back_end
+        image: springcommunity/spring-petclinic-rest:latest
+        ports:
+          - "9966:9966"
+        networks:
+          - petclinic
+
+      front_end:
+        container_name: front_end
+        build: 
+            context: ./front_end/
+            dockerfile: dockerfile
+        image: front_end:latest
+        ports:
+          - "4200:4200"
+        networks:
+          - petclinic
+
+    networks:
+      petclinic:
+        driver: bridge
+
+    version: "3.7"

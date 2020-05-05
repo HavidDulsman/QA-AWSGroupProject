@@ -1,0 +1,11 @@
+- name: install docker to workers
+  hosts: servers
+  become: true
+  roles:
+    - docker-installation
+
+- name: install docker to manager
+  hosts: kubemaster
+  become: true
+  roles:
+    - docker-installation
