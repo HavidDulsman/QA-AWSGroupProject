@@ -9,7 +9,7 @@ spec:
   - protocol: TCP
     port: 4200
     targetPort: 4200
-  type: LoadBalancer
+  type: ClusterIP
 ---
 apiVersion: apps/v1
 kind: Deployment
@@ -30,13 +30,13 @@ spec:
       hostname: frontend
       containers:
       - name: frontend
-        image: amranlab/frontend
-        # resources:
-        #   limits:
-        #     cpu: "2"
-        #     memory: "2Gi"
-        #   requests:
-        #     cpu: "1"
-        #     memory: "1Gi"
+        image: denzaaaaal/frontend
+        resources:
+          limits:
+            cpu: "2"
+            memory: "2Gi"
+          requests:
+            cpu: "1"
+            memory: "1Gi"
         ports:
         - containerPort: 4200
