@@ -22,7 +22,9 @@ This Project is due Week 12 of the QA Consultancy DevOps 17th February 2020 Inta
     + [Pre-Sprint (28/04/2020)]()
     + [Sprint 1 (29/04/2020)]()
     + [Sprint 2 (30/04/2020)]()
-    + [Sprint 3 (31/04/2020)]()
+    + [Sprint 3 (01/05/2020)]()
+    + [Sprint 4 (04/05/2020]()
+    + [Sprint 5 (05/05/2020]()
 4. [Architecture]()
 5. [Risk Assessment]()
     + [Pre/Early Development]()
@@ -163,17 +165,22 @@ A **Risk Assessment Matrix** has been implemented into the document.
 ## Project Retrospective
 As part of the project retrospective, each member of the team will have time to explain how the project went for them, and include unique items and perspectives to certain tasks.
 ### Notable Achievements
-#### David: 
-#### Denzel:
+#### David: Sharp Implementation of Jenkins and Kubernetes
+![kubernetes on jenkins instance](https://i.imgur.com/vS7ywzY.png)
+Whilst the team had continous issues with the earlier tasks, certainly with containerisation, the others who where responsible for **Jenkins** and **Kubenetes management** where quick to responde, allowing us to achieve a MVP the same day we achieve connectivity between the front and backend containers.
+
+#### Denzel: 
 #### Bailey:
 #### Thomas:
 ### Project Shortcomings
-#### David: 
+#### David: Negative impact of working in teams
+Working in pairs allowed some of us to give multiple opinions on design choices as well as learn of others that where maybe more experienced. However many of the negatives of this where eventually felt when we **started losing time**, with calls that we **wernt spreading our workforce evenly enough**. Due to this, we lost alot of time to optimise our solution after the MVP.
 #### Denzel:
 #### Bailey:
 #### Thomas:
 ### Future Improvements
-#### David: 
+#### David: More effective use of time
+With more time to achieve, we could have implemented alot more of our ideas to optimise the project solution. To get more time, we could have got the dependant tasks out of the way early, as well as equally spread the workload evenly between each member of the team.
 #### Denzel:
 #### Bailey:
 #### Thomas:
