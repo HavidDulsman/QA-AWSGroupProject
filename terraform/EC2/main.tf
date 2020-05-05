@@ -1,6 +1,6 @@
 resource "aws_instance" "test_instance" {
   ami = var.ami_id
-  instance_type          = var.t2_micro
+  instance_type          = var.t3_small
   key_name               = var.key_name
   subnet_id              = var.subnet_test_id
   vpc_security_group_ids = [var.aws_sg_id]
@@ -9,7 +9,7 @@ resource "aws_instance" "test_instance" {
 
 resource "aws_instance" "jenkins_instance" {
   ami                    = var.ami_id
-  instance_type          = var.t2_micro
+  instance_type          = var.t2_medium
   key_name               = var.key_name
   subnet_id              = var.subnet_live_id
   vpc_security_group_ids = [var.jenkins_sg_id]

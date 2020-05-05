@@ -2,8 +2,11 @@ variable "ami_id" {
   default = "ami-0917237b4e71c5759"
 }
 
-variable "t2_micro" {
-  default = "t2.micro"
+variable "t2_medium" {
+  default = "t2.medium"
+}
+variable "t3_small" {
+  default = "t3.small"
 }
 
 variable "key_name" {
