@@ -5,7 +5,7 @@
     - docker-installation
 
 - name: install docker to manager
-  hosts: localhost
+  hosts: kubemaster
   become: true
   roles:
     - docker-installation
