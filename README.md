@@ -184,7 +184,6 @@ With more time to achieve, we could have implemented alot more of our ideas to o
 #### Denzel:
 #### Bailey:
 #### Thomas:
-## Installation Guide
 # Installation
 ## Pre-requisites
 - AWS Root account
