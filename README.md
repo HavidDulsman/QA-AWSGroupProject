@@ -185,4 +185,152 @@ With more time to achieve, we could have implemented alot more of our ideas to o
 #### Bailey:
 #### Thomas:
 ## Installation Guide
+# Installation
+## Pre-requisites
+- AWS Root account
+- Knowledge of AWS
+- AWS CLI installed locally
+- GIT installed locally (GitBASH if windows)
+- Knowledge of Terraform
+- Knowledge of the Command line
+## Steps
+### Creating the Jenkins user
+1. On the AWS root account, go IAM > Users and click ‘Add User
+
+We need to create a user for Jenkins to log into in order to take control of the deployment.
+
+2. Fill in the details below
+
+    Username: jenkins
+    Access type: Programatic Access
+
+It will then ask you to ‘Set permissions’ for the jenkins user. 
+
+3. Create a new group with EKS, VPC, EC2 Full Access and select that group for jenkins user to be added to it.
+
+4. Click ‘Next: tags’ to proceed to adding tags for the user. We have opted not to add any tags.
+
+5. Click ‘Next: review’ to review over the settings that have been created and click ‘Create User’
+
+AWS will then prompt you to download a .CSV containing the jenkins user details. 
+
+6. Download the file and open the file in a spreadsheet application. We will now use these details for the AWS CLI on your local machine.
+
+### Applying Terraform
+
+**This step requires you have installed AWS CLI and Terraform on your local machine.**
+
+1. Open a terminal/GITbash and Type ‘AWS configure’ and enter the details of the jenkins user provided in the .csv in the same format of the example below. Replace jenkins-access-key and jenkins-secret-access-key with the ones provided in the .csv
+
+    AWS access key ID: jenkins-access-key
+    AWS Secret Access key: jenkins-secret-access-key 
+    The Default region name is: eu-west-2 
+    Default output format: json
+
+2. Now that the AWS CLI has been configured, we need to clone down the repository.
+
+	Type below in the terminal/gitbash,
+
+    git clone https://github.com/HavidDulsman/QA-AWSGroupProject.git
+
+3. Now the project has been downloaded, navigate into the terraform directory,  
+
+    `cd ./QA-AWSGroupProject/terraform/`
+
+4. Type `Terraform plan` to verify if the infrastructure can be built.
+
+5.  If no error messages are shown, type `terraform apply` to build your infrastructure on AWS.
+
+6. The console will then prompt you to enter a value which you write `yes`
+
+**Due to the size of the infrastructure, this will take about 15 mins to complete.**
+
+### Setting up Jenkins
+1. Now that the infrastructure has been created, go to the EC2 > Instances and select the only t2.medium instance and connect to it through SSH.
+
+**NOTE: Due to AWS EC2 instance connect being buggy, it is recommended you use ‘A standalone SSH client’ to connect to the instance**
+
+Once you have connected to the instance, edit the sudo configuration file to give jenkins elevated privileges. 
+
+1. Type `sudo visudo` in your terminal
+
+This should launch the nano text editor. 
+
+2. Add the following line in the file
+
+	`jenkins ALL=(ALL) NOPASSWD:ALL`
+
+3. Once this is done, save the changes and type `sudo su jenkins`
+
+This will change you to the Jenkins user. Next we need to get the password to unlock jenkins
+
+4. Type `cat /var/lib/jenkins/secrets/initialAdminPassword`
+
+5. Copy the output and go to the Public DNS address of the t2.medium instance at port 8080 in your web browsers URL.  See example below of what the server address will look like
+
+	`ec2-0-0-0-0``.eu-west-2.compute.amazonaws.com``:8080`
+
+	It will ask you to enter the administrator password into the box on the screen. Paste the output copied from the cat command and press **'Continue'**.
+
+6.  If the password is correct, Jenkins will then ask you to install plugins. Select **'Install suggested plugins'** and the program will download the default plugins.
+
+7. Once this is completed, Jenkins will prompt you to create the first admin user. Fill in the details as desired and select **'Save and Continue'**.
+
+Jenkins will now ask you about the instance configuration, which it will ask you for the preferred URL to access the service.
+
+8. Enter in the Public DNS at port 8080 like below
+
+	`ec2-0-0-0-0``.eu-west-2.compute.amazonaws.com``:8080`. 
+
+	Click **'Save and Finish'**.
+
+If all has been set up correctly, you will see a page saying that Jenkins is ready.
+
+9. Click **'Start using Jenkins'**.
+
+Next we need to add IP addresses to the hosts file. 
+
+10. Type in `vi /etc/hosts`
+
+In here, you will see the IP address of the localhost and the domain which in this case localhost. 
+
+11. Replace 0.0.0.0 with the external IPv4 addresses of the instance and add kubemaster as shown below
+
+	`127.0.0.1 localhost`
+	`0.0.0.0` `kubemaster`
+
+12. Type **:wq** to Save the changes and log into your jenkins instance.
+
+### Deploying application
+
+1. Click on **'New Item'** on the left hand menu which will present you with a new page. 
+
+2. In the item name, enter in **'Group2Live'** as the item name and select **'Pipeline'** as the build configuration. 
+3. Click **'Ok'**.
+
+Here we will be taken to a page which requires us to further configure our build configuration.
+
+4. Scroll down until you see the **'Github project'** under **'General'** tab and enter in the below Github Repository in the option
+
+	`https://github.com/HavidDulsman/QA-AWSGroupProject.git`
+
+  
+
+5. Click on the **'Pipeline'** tab and change the definition to **'Pipeline script from SCM'**. An option named **'SCM'** will appear, select **'Git'**.
+
+6. Where it mentions the 'Repository URL', enter the Repo below.
+
+	`https://github.com/HavidDulsman/QA-AWSGroupProject.git`
+
+You will now need to add your Github account to authorize the build. 
+
+7. Click on the **'Add'** button and a drop down menu will appear. 
+8. Click the option **'Jenkins'** and this will pop up a new window. 
+9. Add your Github details of your username and password in the corresponding boxes and click **'Add'**.
+
+10. Leave the branch as **'*/master'** and click **'Save'**. This will take you back to the **'Group2Live’** pipeline menu.
+
+11. Select **'Build Now'** to pull the service from the Github master branch and build the application.
+
+
 
