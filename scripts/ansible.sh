@@ -1,6 +1,6 @@
 #!/bin/bash
 sudo apt-get update
-sudo apt-get install python -y
+sudo apt-get install python python-pip -y 
 # make sure ~/.local/bin exists and is on your PATH
 mkdir -p ~/.local/bin
 echo 'PATH=$PATH:~/.local/bin' >> ~/.bashrc
