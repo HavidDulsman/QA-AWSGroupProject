@@ -187,7 +187,7 @@ All the following pricing is taken from offical AWS documentation and is accurat
 As part of the project retrospective, each member of the team will have time to explain how the project went for them, and include unique items and perspectives to certain tasks.
 ### Notable Achievements
 #### David: Sharp Implementation of Jenkins and Kubernetes
-![kubernetes on jenkins instance](https://i.imgur.com/vS7ywzY.png)
+
 Whilst the team had continous issues with the earlier tasks, certainly with containerisation, the others who where responsible for **Jenkins** and **Kubenetes management** where quick to responde, allowing us to achieve a MVP the same day we achieve connectivity between the front and backend containers.
 
 #### Denzel: Good teamworking dynamic
@@ -209,7 +209,8 @@ One of the most important initial tasks was significantly delayed which caused a
 With more time to achieve, we could have implemented alot more of our ideas to optimise the project solution. To get more time, we could have got the dependant tasks out of the way early, as well as equally spread the workload evenly between each member of the team.
 #### Denzel: Better testing for later projects
 This was caused by limited time during the endpoint of the project, but regardless it would have been ideal to further conduct tests on how our solution works and how stable it is. Non of the team members knew how to use **Selenium** efficiently, so that was off the cards. It could be something we could into implementing in the future.
-#### Bailey:
+#### Bailey: Switch from a Jenkins Pipeline to an AWS Pipeline
+With more time we could've researched the AWS pipeline throughly meaning that the jenkins pipeline wouldn't have been needed. This would mean that the pipeline would be inside of AWS which means it has better integreation with the other AWS features we have used. There would be no drawback of using the AWS pipeline as opposed to the Jenkins pipeline excluding having to do research on how to use the pipeline.
 #### Thomas:
 # Installation
 ## Pre-requisites
