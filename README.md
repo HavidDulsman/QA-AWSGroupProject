@@ -139,6 +139,15 @@ With all other tasks completed or dependant on the containerisation of the front
 
 We will now look to implement light testing features, polish some of our solutions and prepare for our presentation on Thursday.
 
+### Sprint 6 (06/05/2020)
+#### Sprint Planning
+Most of us would focus on producing the best possible material for our presentation due the next day, whilst **Denzel** would try and squeeze out some **testing** functionality to the application. Light testing would also be conducted but otherwise it was just prepp for tomorrow!
+
+#### Trello Board
+![trello 6](https://i.imgur.com/J7nrYDr.png)
+
+#### Sprint Review
+Whilst we all spent most of our time preparing for the presentation due the following day, 2 of us actually spent time creating a video guide for the installation, a requirement that was only told to us very late into the project lifecycle. The video was successfully edit by **David** and excellently commentated over by **Tom** just incase issues arose tomorrow. That video is at the bottom of this document. More documentation was done, however we opted to removed all traces of testing due to little time and things to test outside of what we had learnt up to this point
 ## Architecture
 ### Infrastructual Diagram
 #### Initial Diagram
@@ -196,11 +205,6 @@ Jenkins is the Continous Intergration Server that we chose to use for this proje
 * Travis CI 
 We decided to use jenkins instead of these alternatives due to multiple reasons. Some of these reasons are that the software is free to use and its also easily modified and you are able to automatically build. The biggest reason we chose to use jenkins was because we have all used the software before and all felt confident with our ability to use it. 
 
-
-## Testing
-### Pytest
-### Coverage
-
 ## Pricing
 All the following pricing is taken from offical AWS documentation and is accurate as of 06/05/2020. The currency conversion between dollars and pounds is using the current conversion rate accurate on 06/05/2020. Total costs might be less if you are still within the AWS free tier usage.
 
@@ -219,6 +223,7 @@ Whilst the team had continous issues with the earlier tasks, certainly with cont
 With constant communication between the entire team throughout the project and consistant updating of the kanban board, meant that at no point during the project was any member of the team unsure about the current process of the team. This also meant that if any member of the team was waiting on a prerequisite task to be completed they knew instantly which meant we didn't have long periods of non-productive time between one task being completed and the next task being started. 
 
 #### Thomas:
+
 ### Project Shortcomings
 #### David: Negative impact of working in teams
 Working in pairs allowed some of us to give multiple opinions on design choices as well as learn of others that where maybe more experienced. However many of the negatives of this where eventually felt when we **started losing time**, with calls that we **wernt spreading our workforce evenly enough**. Due to this, we lost alot of time to optimise our solution after the MVP.
@@ -402,5 +407,8 @@ You will now need to add your Github account to authorize the build.
 6. Inside your Jenkins Pipeline click the **'Configure'** button on the left hand side
 
 7. Navigate to the **'Build Triggers'** Section and check the **'GitHub hook trigger for GITScm polling'** box
+
+### Installation Guide Video
+
 
 
