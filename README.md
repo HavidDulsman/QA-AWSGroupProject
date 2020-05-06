@@ -197,12 +197,14 @@ Whilst the team had continous issues with the earlier tasks, certainly with cont
 #### David: Negative impact of working in teams
 Working in pairs allowed some of us to give multiple opinions on design choices as well as learn of others that where maybe more experienced. However many of the negatives of this where eventually felt when we **started losing time**, with calls that we **wernt spreading our workforce evenly enough**. Due to this, we lost alot of time to optimise our solution after the MVP.
 #### Denzel: Unfamiliarity with resources used
+During this training period with QA Consulting, we had the chance to learn and experience all of the tools who would be asked to use whilst working for our new clients. Some of the tools used for this project where **not those we had experience with and/or had little with anyways**. Angular had not been heard of by the majority of the group, whilst we all had very little time with terraform and kubernetes.
 #### Bailey:
 #### Thomas:
 ### Future Improvements
 #### David: More effective use of time
 With more time to achieve, we could have implemented alot more of our ideas to optimise the project solution. To get more time, we could have got the dependant tasks out of the way early, as well as equally spread the workload evenly between each member of the team.
-#### Denzel: Better testing in later projects
+#### Denzel: Better testing for later projects
+This was caused by limited time during the endpoint of the project, but regardless it would have been ideal to further conduct tests on how our solution works and how stable it is. Non of the team members knew how to use **Selenium** efficiently, so that was off the cards. It could be something we could into implementing in the future.
 #### Bailey:
 #### Thomas:
 # Installation
