@@ -18,6 +18,7 @@ This Project is due Week 12 of the QA Consultancy DevOps 17th February 2020 Inta
 2. [Project Plan]()
     + [Kanban Board]()
     + [Feature Branch Model]()
+    + [Collaboration on Tasks]()
 3. [Sprint History]()
     + [Pre-Sprint (28/04/2020)]()
     + [Sprint 1 (29/04/2020)]()
@@ -25,21 +26,23 @@ This Project is due Week 12 of the QA Consultancy DevOps 17th February 2020 Inta
     + [Sprint 3 (01/05/2020)]()
     + [Sprint 4 (04/05/2020]()
     + [Sprint 5 (05/05/2020]()
+    + [Sprint 6 (06/05/2020]()
+    + [Future Sprint]()
 4. [Architecture]()
+    + [Infrastructure Diagram]()
 5. [Risk Assessment]()
     + [Pre/Early Development]()
     + [After Project Completition]()
 6. [Deployment]()
+    + [Deployment Pipeline]()
     + [List of techonologies used]()
-7. [Testing]()
-    + [Pytest]()
-    + [Coverage]()
-8. [Pricing]()
-9. [Project retrospective]()
+    + [Why we used these tools]()
+7. [Pricing]()
+8. [Project retrospective]()
     + [Notable Achievements]()
     + [Project Shortcomings]()
     + [Future Improvements]()
-10. [Installation Guide]()
+9. [Installation Guide]()
 
 ## Brief
 
@@ -148,6 +151,9 @@ Most of us would focus on producing the best possible material for our presentat
 
 #### Sprint Review
 Whilst we all spent most of our time preparing for the presentation due the following day, 2 of us actually spent time creating a video guide for the installation, a requirement that was only told to us very late into the project lifecycle. The video was successfully edit by **David** and excellently commentated over by **Tom** just incase issues arose tomorrow. That video is at the bottom of this document. More documentation was done, however we opted to removed all traces of testing due to little time and things to test outside of what we had learnt up to this point
+
+### Future Sprint
+
 ## Architecture
 ### Infrastructual Diagram
 #### Initial Diagram
