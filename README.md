@@ -191,7 +191,10 @@ As part of the project retrospective, each member of the team will have time to 
 Whilst the team had continous issues with the earlier tasks, certainly with containerisation, the others who where responsible for **Jenkins** and **Kubenetes management** where quick to responde, allowing us to achieve a MVP the same day we achieve connectivity between the front and backend containers.
 
 #### Denzel: Good teamworking dynamic
-#### Bailey:
+
+#### Bailey: Constant Communicaction and Updating of Kanban Board
+With constant communication between the entire team throughout the project and consistant updating of the kanban board, meant that at no point during the project was any member of the team unsure about the current process of the team. This also meant that if any member of the team was waiting on a prerequisite task to be completed they knew instantly which meant we didn't have long periods of non-productive time between one task being completed and the next task being started. 
+
 #### Thomas:
 ### Project Shortcomings
 #### David: Negative impact of working in teams
