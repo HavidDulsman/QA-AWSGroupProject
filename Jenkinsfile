@@ -7,6 +7,7 @@ pipeline{
                 sh './scripts/before_installation.sh'
                 sh './scripts/ansible.sh'
                 sh './scripts/kubectl.sh'
+                sh './scripts/testing.sh'
             }
         }
     }

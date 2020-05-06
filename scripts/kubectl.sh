@@ -10,3 +10,4 @@ sleep 5
 kubectl create -f /var/lib/jenkins/workspace/Group2Live/kube/frontend.yml
 sleep 20
 kubectl create -f /var/lib/jenkins/workspace/Group2Live/kube/nginx.yml
+sleep 6m
