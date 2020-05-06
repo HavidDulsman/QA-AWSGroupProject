@@ -5,8 +5,8 @@ echo 'export PATH=$PATH:$HOME/bin' >> ~/.bashrc
 kubectl version --short --client
 aws eks update-kubeconfig --name group2-eks
 sleep 20
-kubectl create -f /var/lib/jenkins/workspace/Group2Live/kube/backend.yml
+kubectl apply -f /var/lib/jenkins/workspace/Group2Live/kube/backend.yml
 sleep 5
-kubectl create -f /var/lib/jenkins/workspace/Group2Live/kube/frontend.yml
+kubectl apply -f /var/lib/jenkins/workspace/Group2Live/kube/frontend.yml
 sleep 20
-kubectl create -f /var/lib/jenkins/workspace/Group2Live/kube/nginx.yml
+kubectl apply -f /var/lib/jenkins/workspace/Group2Live/kube/nginx.yml
