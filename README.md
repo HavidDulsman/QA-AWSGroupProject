@@ -201,7 +201,8 @@ With constant communication between the entire team throughout the project and c
 Working in pairs allowed some of us to give multiple opinions on design choices as well as learn of others that where maybe more experienced. However many of the negatives of this where eventually felt when we **started losing time**, with calls that we **wernt spreading our workforce evenly enough**. Due to this, we lost alot of time to optimise our solution after the MVP.
 #### Denzel: Unfamiliarity with resources used
 During this training period with QA Consulting, we had the chance to learn and experience all of the tools who would be asked to use whilst working for our new clients. Some of the tools used for this project where **not those we had experience with and/or had little with anyways**. Angular had not been heard of by the majority of the group, whilst we all had very little time with terraform and kubernetes.
-#### Bailey:
+#### Bailey: Some Initial Prerequiste Task were Delayed
+One of the most important initial tasks was significantly delayed which caused a knock on effect for the rest of the project. As it was an important prerequsite task that many of the others tasks relied on it meant that certain tasks like the jenkins pipeline couldn’t be fully implemented or tested until the initial docker task was completed. 
 #### Thomas:
 ### Future Improvements
 #### David: More effective use of time
