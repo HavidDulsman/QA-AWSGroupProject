@@ -34,11 +34,12 @@ This Project is due Week 12 of the QA Consultancy DevOps 17th February 2020 Inta
 7. [Testing]()
     + [Pytest]()
     + [Coverage]()
-8. [Project retrospective]()
+8.[Pricing]()
+9. [Project retrospective]()
     + [Notable Achievements]()
     + [Project Shortcomings]()
     + [Future Improvements]()
-9. [Installation Guide]()
+10. [Installation Guide]()
 
 ## Brief
 
@@ -176,6 +177,11 @@ A **Risk Assessment Matrix** has been implemented into the document.
 ## Testing
 ### Pytest
 ### Coverage
+
+## Pricing
+All the following pricing is taken from offical AWS documentation and is accurate as of 06/05/2020. The currency conversion between dollars and pounds is using the current conversion rate accurate on 06/05/2020. Total costs might be less if you are still within the AWS free tier usage.
+![Pricing List](https://i.imgur.com/SiuNiCH.png)
+
 ## Project Retrospective
 As part of the project retrospective, each member of the team will have time to explain how the project went for them, and include unique items and perspectives to certain tasks.
 ### Notable Achievements
