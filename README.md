@@ -180,6 +180,7 @@ A **Risk Assessment Matrix** has been implemented into the document.
 
 ## Pricing
 All the following pricing is taken from offical AWS documentation and is accurate as of 06/05/2020. The currency conversion between dollars and pounds is using the current conversion rate accurate on 06/05/2020. Total costs might be less if you are still within the AWS free tier usage.
+
 ![Pricing List](https://i.imgur.com/SiuNiCH.png)
 
 ## Project Retrospective
