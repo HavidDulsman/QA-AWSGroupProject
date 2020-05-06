@@ -74,6 +74,7 @@ After two previous projects, we were all well acustomed to the feature branch mo
 ### Collaboration on tasks
 As this was our first group project, we looked to combine all of the experiences so far to effectively work together. We looked to use a **shared github repository** hosted by 1 person, but with the other 3 as collaborators and able to do any the owner can do. 
 ![statistics](https://i.imgur.com/NgjPU3N.png)
+
 ## Sprint History
 ### Pre-Sprint (28/04/2020)
 We had the chance to look at the project brief 24 hours before our first meeting with our client for the first official standup and scrum. During this time we spoke in deep about the requirements of the project, as well as who would be responsible for deliverables, repositorys and the roles within our team. 
@@ -150,7 +151,7 @@ A risk assessment was compiled to look and examine risk related to the project, 
 A **Risk Assessment Matrix** has been implemented into the document.
 
 ### After Project Completetion
-
+The risk assessment was later reviewed with updates to the certain values of risk items. We also included final comments on all items previously included. The new risk assessment can be found by using [this link](https://github.com/HavidDulsman/QA-AWSGroupProject/blob/master/Documentation/AWS_RA_FINAL_COMMENTS.xlsx)
 
 ## Deployment
 ### Deployment Pipeline
