@@ -34,12 +34,11 @@ This Project is due Week 12 of the QA Consultancy DevOps 17th February 2020 Inta
 7. [Testing]()
     + [Pytest]()
     + [Coverage]()
-8. [Pricing]()
-9. [Project retrospective]()
+8. [Project retrospective]()
     + [Notable Achievements]()
     + [Project Shortcomings]()
     + [Future Improvements]()
-10. [Installation Guide]()
+9. [Installation Guide]()
 
 ## Brief
 
@@ -140,7 +139,10 @@ We will now look to implement light testing features, polish some of our solutio
 
 ## Architecture
 ### Infrastructual Diagram
-![infrastructual diagram](https://i.imgur.com/tY1iRY9.png)
+#### Initial Diagram
+![infrastructual diagram](https://i.imgur.com/tY1iRY9.png) 
+#### Final Diagram
+![infrastructual diagram](https://i.imgur.com/DpQrw2P.png)
 ## Risk Assessment
 ### Pre/Early Development
 A risk assessment was compiled to look and examine risk related to the project, its requirements and demands. Due to the complexity, detail and size of the risk assessment we have opted to include it as it's own file which can be accessed through the documentation folder in this repository or by using [this link](https://github.com/HavidDulsman/QA-AWSGroupProject/blob/master/Documentation/AWS_initial_RA.xlsx).
@@ -174,12 +176,6 @@ A **Risk Assessment Matrix** has been implemented into the document.
 ## Testing
 ### Pytest
 ### Coverage
-
-## Pricing 
-
-All the following pricing is taken from offical AWS documentation and is accurate as of 06/05/2020. The currency conversion between dollars and pounds is using the current conversion rate accurate on 06/05/2020
-![Pricing List](https://i.imgur.com/SiuNiCH.png)
-
 ## Project Retrospective
 As part of the project retrospective, each member of the team will have time to explain how the project went for them, and include unique items and perspectives to certain tasks.
 ### Notable Achievements
