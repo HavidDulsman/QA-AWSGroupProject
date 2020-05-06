@@ -34,7 +34,7 @@ This Project is due Week 12 of the QA Consultancy DevOps 17th February 2020 Inta
 7. [Testing]()
     + [Pytest]()
     + [Coverage]()
-8.[Pricing]()
+8. [Pricing]()
 9. [Project retrospective]()
     + [Notable Achievements]()
     + [Project Shortcomings]()
