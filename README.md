@@ -208,9 +208,9 @@ With more time to achieve, we could have implemented alot more of our ideas to o
 1. Go to the Github repository located at 
 	https://github.com/HavidDulsman/QA-AWSGroupProject.git
 	
-2. Click the fork button in the upper right to fork the project to your own Github
+2. Click the **'Fork'** button in the upper right to fork the project to your own Github
 
-3. Inside the forked project repository on your own Github profile, click the green Clone or Download button and copy the url link that is shown, you will need this later
+3. Inside the forked project repository on your own Github profile, click the green **'Clone or Download'** button and copy the url link that is shown, you will need this later
 
 ### Creating the Jenkins user
 1. On the AWS root account, go IAM > Users and click ‘Add User
@@ -347,11 +347,11 @@ You will now need to add your Github account to authorize the build.
 11. Select **'Build Now'** to pull the service from the Github master branch and build the application.
 
 ### Adding a webhook to Jenkins for automatic builds
-1. Inside your forked Github repository, click the settings button on the top navigation bar and then click the webhook button on the left hand side navigation bar
+1. Inside your forked Github repository, click the **'Settings'** button on the top navigation bar and then click the **'Webhook'** button on the left hand side navigation bar
 
 2. Click **'Add Webhook'**
 
-3. inside the Payload Url box enter your jenkins url with /github-webhook/ added at the end
+3. inside the **'Payload Url'** box enter your jenkins url with /github-webhook/ added at the end
 
 4. Inside the **'Content Type'** drop down box select the **'application/x-www-form-urlencoded'** option
 
