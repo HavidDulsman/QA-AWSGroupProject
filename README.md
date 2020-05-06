@@ -351,7 +351,9 @@ You will now need to add your Github account to authorize the build.
 
 2. Click **'Add Webhook'**
 
-3. inside the **'Payload Url'** box enter your jenkins url with /github-webhook/ added at the end
+3. inside the **'Payload Url'** box enter your jenkins url with /github-webhook/ added at the end, example shown below
+
+	`http://ec2-18-132-120-175.eu-west-2.compute.amazonaws.com:8080/github-webhook/`
 
 4. Inside the **'Content Type'** drop down box select the **'application/x-www-form-urlencoded'** option
 
