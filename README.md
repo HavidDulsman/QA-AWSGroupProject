@@ -204,6 +204,14 @@ With more time to achieve, we could have implemented alot more of our ideas to o
 - Knowledge of Terraform
 - Knowledge of the Command line
 ## Steps
+### Forking the Github Project
+1. Go to the Github repository located at 
+	https://github.com/HavidDulsman/QA-AWSGroupProject.git
+	
+2. Click the fork button in the upper right to fork the project to your own Github
+
+3. Inside the forked project repository on your own Github profile, click the green Clone or Download button and copy the url link that is shown, you will need this later
+
 ### Creating the Jenkins user
 1. On the AWS root account, go IAM > Users and click ‘Add User
 
@@ -242,7 +250,7 @@ AWS will then prompt you to download a .CSV containing the jenkins user details.
 
 	Type below in the terminal/gitbash,
 
-    git clone https://github.com/HavidDulsman/QA-AWSGroupProject.git
+    git clone (insert url from forking the Github Project step)
 
 3. Now the project has been downloaded, navigate into the terraform directory,  
 
@@ -321,17 +329,12 @@ In here, you will see the IP address of the localhost and the domain which in th
 
 Here we will be taken to a page which requires us to further configure our build configuration.
 
-4. Scroll down until you see the **'Github project'** under **'General'** tab and enter in the below Github Repository in the option
-
-	`https://github.com/HavidDulsman/QA-AWSGroupProject.git`
-
-  
+4. Scroll down until you see the **'Github project'** under **'General'** tab and enter in the url link (from the forking the Github project step) in the option
+ 
 
 5. Click on the **'Pipeline'** tab and change the definition to **'Pipeline script from SCM'**. An option named **'SCM'** will appear, select **'Git'**.
 
-6. Where it mentions the 'Repository URL', enter the Repo below.
-
-	`https://github.com/HavidDulsman/QA-AWSGroupProject.git`
+6. Where it mentions the 'Repository URL', enter the url link (from the forking the Github project step).
 
 You will now need to add your Github account to authorize the build. 
 
@@ -343,5 +346,19 @@ You will now need to add your Github account to authorize the build.
 
 11. Select **'Build Now'** to pull the service from the Github master branch and build the application.
 
+### Adding a webhook to Jenkins for automatic builds
+1. Inside your forked Github repository, click the settings button on the top navigation bar and then click the webhook button on the left hand side navigation bar
+
+2. Click **'Add Webhook'**
+
+3. inside the Payload Url box enter your jenkins url with /github-webhook/ added at the end
+
+4. Inside the **'Content Type'** drop down box select the **'application/x-www-form-urlencoded'** option
+
+5. Select the **'Let me select individual events'** on for the **'Which events would you like to trigger this webhook?'** and check the **'Pushes'** and **'Pull request'** boxes
+
+6. Inside your Jenkins Pipeline click the **'Configure'** button on the left hand side
+
+7. Navigate to the **'Build Triggers'** Section and check the **'GitHub hook trigger for GITScm polling'** box
 
 
