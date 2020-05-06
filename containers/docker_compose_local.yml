@@ -1,24 +1,30 @@
+  
 --- 
     services: 
-      back_end:
-        container_name: back_end
+      backend:
+        container_name: backend
         image: springcommunity/spring-petclinic-rest:latest
         ports:
           - "9966:9966"
         networks:
           - petclinic
 
-      front_end:
-        container_name: front_end
-        build: 
-            context: ./front_end/
-            dockerfile: dockerfile
-        image: front_end:latest
+      frontend:
+        container_name: frontend
+        image: denzaaaaal/frontend:latest
         ports:
           - "4200:4200"
         networks:
           - petclinic
 
+      nginx:
+        container_name: reverse_proxy
+        image: denzaaaaal/nginx:latest
+        ports:
+          - "4200:4200"
+        networks:
+          - petclinic
+          
     networks:
       petclinic:
         driver: bridge
