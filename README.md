@@ -115,7 +115,7 @@ We originally planned to use **Docker Swarm** for orchestration due to shared co
 
 Whilst a working MVP is still not available, we will look to finish up on the weekend, allowing us all of next week to focus on interesting ideas to improve the application infrastructure.
 
-### Sprint (04/05/2020)
+### Sprint 4 (04/05/2020)
 #### Sprint Planning
 After some light work on the weekend, we starting growing desperate to achieve a Minimal Viable Product, as we realised we not only had limited time, but we were quickly losing the time we wanted to experiment with. **More containerisation issues**  plagued the team further on the weekend, so we quickly looked for support for this issue. This was the day **Denzel** was unable to complete major work, so we had to focus on other elements, from ansible, kubenetes and documentation. **Bailey** would continue his work on **Jenkins**, whilst **Tom** had done previous research on **Kubernetes** and looked to apply that knowledge in his YAML Files.
 #### Trello Board
@@ -125,6 +125,17 @@ After some light work on the weekend, we starting growing desperate to achieve a
 Alot of new issues where uncovered during the weekend and this sprint, that yet again had massive effects on the progress that can be made. We learnt alot about docker techniques this sprint and opted to change from **3 to 2 containers**. The requirements of the ansible and kubenetes required some additional work to the terraform architecture but was completed by the end of the day. The jenkins instance is now full operational and prepared for the later task, that we have now distributed and started. 
 
 Due to the serverity of the delays we are facing, we are now looking to simply achieve the MVP, whilst leaving time to curate the best presentation possible
+### Sprint 5 (05/05/2020)
+#### Sprint Planning
+With all other tasks completed or dependant on the containerisation of the frontend and backend, all of our efforts would join to discover a solution for our project. Once that problem was been solved, we can quickly look to add everything else and achieve the MVP. However there will be little time to optimise our solution after this as we have to prepare for our presentation
+
+#### Trello Board
+![trello 5](https://i.imgur.com/fO4dRcy.png)
+
+#### Sprint Review
+**A minimal viable product was finally achieved!** **Denzel** was finally able to fix the error with containerisation and thus allowed us to move forward with the project! **Tom** and **Bailey** had time to prep their solutions whilst waiting for the containers, meaning they where allowed to easily and effectively implement their task. This has meaned we now can access our application on the worker nodes of the cluster.
+
+We will now look to implement light testing features, polish some of our solutions and prepare for our presentation on Thursday.
 
 ## Architecture
 ### Infrastructual Diagram
@@ -169,19 +180,19 @@ As part of the project retrospective, each member of the team will have time to 
 ![kubernetes on jenkins instance](https://i.imgur.com/vS7ywzY.png)
 Whilst the team had continous issues with the earlier tasks, certainly with containerisation, the others who where responsible for **Jenkins** and **Kubenetes management** where quick to responde, allowing us to achieve a MVP the same day we achieve connectivity between the front and backend containers.
 
-#### Denzel: 
+#### Denzel: Good teamworking dynamic
 #### Bailey:
 #### Thomas:
 ### Project Shortcomings
 #### David: Negative impact of working in teams
 Working in pairs allowed some of us to give multiple opinions on design choices as well as learn of others that where maybe more experienced. However many of the negatives of this where eventually felt when we **started losing time**, with calls that we **wernt spreading our workforce evenly enough**. Due to this, we lost alot of time to optimise our solution after the MVP.
-#### Denzel:
+#### Denzel: Unfamiliarity with resources used
 #### Bailey:
 #### Thomas:
 ### Future Improvements
 #### David: More effective use of time
 With more time to achieve, we could have implemented alot more of our ideas to optimise the project solution. To get more time, we could have got the dependant tasks out of the way early, as well as equally spread the workload evenly between each member of the team.
-#### Denzel:
+#### Denzel: Better testing in later projects
 #### Bailey:
 #### Thomas:
 # Installation
