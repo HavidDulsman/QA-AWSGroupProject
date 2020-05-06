@@ -200,8 +200,9 @@ We need to create a user for Jenkins to log into in order to take control of the
 
 2. Fill in the details below
 
-    Username: jenkins
-    Access type: Programatic Access
+    ```Username: jenkins
+    
+    Access type: Programatic Access```
 
 It will then ask you to ‘Set permissions’ for the jenkins user. 
 
@@ -267,7 +268,7 @@ This will change you to the Jenkins user. Next we need to get the password to un
 
 5. Copy the output and go to the Public DNS address of the t2.medium instance at port 8080 in your web browsers URL.  See example below of what the server address will look like
 
-	`ec2-0-0-0-0``.eu-west-2.compute.amazonaws.com``:8080`
+	`ec2-0-0-0-0.eu-west-2.compute.amazonaws.com:8080`
 
 	It will ask you to enter the administrator password into the box on the screen. Paste the output copied from the cat command and press **'Continue'**.
 
@@ -279,7 +280,7 @@ Jenkins will now ask you about the instance configuration, which it will ask you
 
 8. Enter in the Public DNS at port 8080 like below
 
-	`ec2-0-0-0-0``.eu-west-2.compute.amazonaws.com``:8080`. 
+	`ec2-0-0-0-0.eu-west-2.compute.amazonaws.com:8080`. 
 
 	Click **'Save and Finish'**.
 
