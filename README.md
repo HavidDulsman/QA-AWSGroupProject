@@ -175,6 +175,26 @@ The risk assessment was later reviewed with updates to the certain values of ris
 * Docker: Containerisation Service
 * DockerHub: Version Control for Docker Images and Containers
 * NGINX: Load Balancing 
+* Kubernetes: Container-Orchestration Service
+
+### Why We Used Tool/Service
+#### Docker
+Docker is the container service that we chose to use for this project. Alternatives to this technologies are:
+* Virtual Box
+* Linux Containers
+We decided to use docker due to its rapid deployment menaing less time waiting and quicker access to the application after changes. Also docker is the inductry leading service for containerisation meaning theres lots of online documentaion if needed. Finally we chose docker as all members of the team had experience with docker and had used it within the last month.
+
+#### Kubernetes
+Kubernetes is the container-orchestration service that we chose to use for this project. Alternatives to this technologies are:
+* Nomad
+* Docker Swarm
+We decided on kubernetes due to its easy scalability and realiabilty. Also after dicussing using docker swarm instead we decided that kubernetes was able to be easierly intergrated into the project.
+
+#### Jenkins
+Jenkins is the Continous Intergration Server that we chose to use for this project. Alternatives to this technologies are:
+* AWS Pipeline
+* Travis CI 
+We decided to use jenkins instead of these alternatives due to multiple reasons. Some of these reasons are that the software is free to use and its also easily modified and you are able to automatically build. The biggest reason we chose to use jenkins was because we have all used the software before and all felt confident with our ability to use it. 
 
 
 ## Testing
