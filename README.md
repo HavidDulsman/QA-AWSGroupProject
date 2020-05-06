@@ -153,6 +153,8 @@ A **Risk Assessment Matrix** has been implemented into the document.
 
 
 ## Deployment
+### Deployment Pipeline
+![pipeline](https://i.imgur.com/G7x5S2D.png)
 ### List of technologies used
 #### Technologies Used in Applications Given to us
 * TypeScript: Programnming Language
