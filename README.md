@@ -417,6 +417,6 @@ You will now need to add your Github account to authorize the build.
 7. Navigate to the **'Build Triggers'** Section and check the **'GitHub hook trigger for GITScm polling'** box
 
 ### Installation Guide Video
-
+https://www.youtube.com/watch?v=Q5_5_BxxdEU
 
 
