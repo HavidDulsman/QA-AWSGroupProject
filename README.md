@@ -147,14 +147,14 @@ We will now look to implement light testing features, polish some of our solutio
 Most of us would focus on producing the best possible material for our presentation due the next day, whilst **Denzel** would try and squeeze out some **testing** functionality to the application. Light testing would also be conducted but otherwise it was just prepp for tomorrow!
 
 #### Trello Board
-![trello 6](https://i.imgur.com/reeznHF.png)
+![trello 6](https://i.imgur.com/J7nrYDr.png)
 
 #### Sprint Review
 Whilst we all spent most of our time preparing for the presentation due the following day, 2 of us actually spent time creating a video guide for the installation, a requirement that was only told to us very late into the project lifecycle. The video was successfully edit by **David** and excellently commentated over by **Tom** just incase issues arose tomorrow. That video is at the bottom of this document. More documentation was done, however we opted to removed all traces of testing due to little time and things to test outside of what we had learnt up to this point
 
 ### Future Sprint
 
-![future sprint](https://i.imgur.com/rHeHZnh.png)
+![future sprint](https://i.imgur.com/reeznHF.png)
 
 ## Architecture
 ### Infrastructual Diagram
