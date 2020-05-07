@@ -153,7 +153,10 @@ Most of us would focus on producing the best possible material for our presentat
 Whilst we all spent most of our time preparing for the presentation due the following day, 2 of us actually spent time creating a video guide for the installation, a requirement that was only told to us very late into the project lifecycle. The video was successfully edit by **David** and excellently commentated over by **Tom** just incase issues arose tomorrow. That video is at the bottom of this document. More documentation was done, however we opted to removed all traces of testing due to little time and things to test outside of what we had learnt up to this point
 
 ### Future Sprint
+#### Sprint Planning
+The main focus for our future sprint (a forecasted sprint for after the project deadline) would be on implementing Unit and Integration testing, by using Pytest and a Coverage report. This expected sprint would take 1 or 2 days to complete based on our previous work pace. Stretch goals for this sprint would be to implement acceptance testing by implementing Selenium testing and to integrate an AWS pipeline to replace the Jenkins pipeline and have the whole application running in AWS.
 
+#### Trello Board
 ![future sprint](https://i.imgur.com/reeznHF.png)
 
 ## Architecture
