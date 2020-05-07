@@ -225,6 +225,8 @@ Whilst the team had continous issues with the earlier tasks, certainly with cont
 
 #### Denzel: Good teamworking dynamic
 
+With the rapport established among the team members, we were able to support each other in troubling times keeping moral high and have an enjoyable time whilst working on the project. Communcation among the team was always constructive and there was always help avaliable due to working in pairs to complete a task.
+
 #### Bailey: Constant Communicaction and Updating of Kanban Board
 With constant communication between the entire team throughout the project and consistant updating of the kanban board, meant that at no point during the project was any member of the team unsure about the current process of the team. This also meant that if any member of the team was waiting on a prerequisite task to be completed they knew instantly which meant we didn't have long periods of non-productive time between one task being completed and the next task being started. 
 
