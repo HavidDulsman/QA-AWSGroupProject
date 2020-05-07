@@ -235,7 +235,8 @@ With the rapport established among the team members, we were able to support eac
 #### Bailey: Constant Communicaction and Updating of Kanban Board
 With constant communication between the entire team throughout the project and consistant updating of the kanban board, meant that at no point during the project was any member of the team unsure about the current process of the team. This also meant that if any member of the team was waiting on a prerequisite task to be completed they knew instantly which meant we didn't have long periods of non-productive time between one task being completed and the next task being started. 
 
-#### Thomas:
+#### Thomas: Using Terraform to spin up AWS services
+At the start of the project we were able to quickly design and implement a Terraform structure within our application. This allowed us to quickly create, update and destroy security groups, EC2 instances, subnets and a VPC. Given that nobody in the group had prior knowledge of Terraform, this was a significant early accomplishment for us.
 
 ### Project Shortcomings
 #### David: Negative impact of working in teams
@@ -244,7 +245,8 @@ Working in pairs allowed some of us to give multiple opinions on design choices 
 During this training period with QA Consulting, we had the chance to learn and experience all of the tools who would be asked to use whilst working for our new clients. Some of the tools used for this project where **not those we had experience with and/or had little with anyways**. Angular had not been heard of by the majority of the group, whilst we all had very little time with terraform and kubernetes.
 #### Bailey: Some Initial Prerequiste Task were Delayed
 One of the most important initial tasks was significantly delayed which caused a knock on effect for the rest of the project. As it was an important prerequsite task that many of the others tasks relied on it meant that certain tasks like the jenkins pipeline couldn’t be fully implemented or tested until the initial docker task was completed. 
-#### Thomas:
+#### Thomas: High expenses setting up the project
+Due to the fact that we started our project with completeting Terraform, as the application progressed, we had to make multiple changes that required the Terraform to be destroyed (not incrementally built upon using the applied function). This constant destroying and spinning up of new AWS services tallied a high initial cost for our application despite our final running costs for the application being low.
 ### Future Improvements
 #### David: More effective use of time
 With more time to achieve, we could have implemented alot more of our ideas to optimise the project solution. To get more time, we could have got the dependant tasks out of the way early, as well as equally spread the workload evenly between each member of the team.
@@ -252,7 +254,8 @@ With more time to achieve, we could have implemented alot more of our ideas to o
 This was caused by limited time during the endpoint of the project, but regardless it would have been ideal to further conduct tests on how our solution works and how stable it is. Non of the team members knew how to use **Selenium** efficiently, so that was off the cards. It could be something we could into implementing in the future.
 #### Bailey: Switch from a Jenkins Pipeline to an AWS Pipeline
 With more time we could've researched the AWS pipeline throughly meaning that the jenkins pipeline wouldn't have been needed. This would mean that the pipeline would be inside of AWS which means it has better integreation with the other AWS features we have used. There would be no drawback of using the AWS pipeline as opposed to the Jenkins pipeline excluding having to do research on how to use the pipeline.
-#### Thomas:
+#### Thomas: AWS Snapshots
+Given more time, we could have implemented a snapshot feature using a Lambda function in AWS. This snapshot feature would save a version of the application AMI, and be able to rebuild the application from a stable build if the application were ever to be destroyed.
 # Installation
 ## Pre-requisites
 - AWS Root account
